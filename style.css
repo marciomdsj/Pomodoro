@@ -1,0 +1,114 @@
+body{
+    width:auto;
+    height:auto;
+    background: rgb(66, 66, 66);
+    align-items: center;
+    justify-content: center;
+    font-size:32px;
+    text-align: center;
+    color:aliceblue;
+}
+
+.title{
+    font-size:50px;
+
+}
+
+.explain{
+    width:500px;
+    font-size:15px;
+}
+
+.prime{
+    display:flex;
+    height:300px;
+    width:auto;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.buttons{
+    width:400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.support {
+    width:400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.restart{
+    width:400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cronometer{
+    font-size: 25px;
+}
+
+.counter{
+    font-size:25px;
+}
+
+.restTimer{
+    font-size:25px;
+}
+
+.startButton{
+    background-color: rgb(200, 100, 100);
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.pauseButton{
+    background-color: rgb(50,200,200);
+    font-size:20px;
+    border-radius: 10px;
+}
+
+.restartButton{
+    background-color: rgb(240, 150, 150);
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.helpText{
+    font-size:20px;
+    color:aliceblue;
+}
+
+.startText{
+    font-size:20px;
+    color:aliceblue;
+}
+
+.description {
+    transition: 0.9s ease-in-out;
+}
+
+.done{
+    font-size:20px;
+}
